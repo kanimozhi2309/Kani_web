@@ -1,0 +1,66 @@
+<!-- anchor tag  syntax <a href="link/url"></a> -->
+<!-- **** target= it is used to open the link different page***
+***this is the synax :*** <a target="value"- the  values are _self,_blank,_parent,_top -->
+<!-- use the anchor different purpose like email,tel,download,image,internal link -->
+<!-- absolute url(page go with direct) and relative url(call the document within the page) -->
+
+<html>
+
+<head>
+    <title></title>
+    <style>
+        .styles{
+                color: blue;
+            background-color: rgb(250, 225, 215); border: 1px solid greenyellow; padding :20px;
+        }
+
+        .performance{
+            background-color: rgb(255, 230, 0); border: 1px solid black ; padding: 20px;
+        }
+
+        .link{
+            background-color: rgb(0, 255, 213); border: 1px  solid red ;padding :20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- this link open directly -->
+    <p><a href="https://www.w3schools.com/html/">this html tutorial</a></p>
+    <!-- the link  will open  within the same page -->
+    <div class="styles" > open the link within the same window using _self <a style="color: red;"
+            href="https://www.w3schools.com/html/" target="_self">this html tutorial link</a></div>
+    <br>
+    <div class="styles" > open the link within the same window using _parent<a style="color: red;"
+            href="https://www.w3schools.com/html/" target="_parent">this html tutorial link</a></div>
+    <br>
+    <div class="styles"> open the link within the same  window using _top<a style="color: red ; "
+        href="https://www.w3schools.com/html/" target="_top">this html tutorial link</a></div>
+
+    <!-- the link will open another window -->
+    <div class="styles" > open the link  the another window using _blank<a style="color:black;"
+        href="https://www.w3schools.com/html/" target="_blank">this html tutorial link</a></div>
+<br>
+    <br><br>
+    <div class="performance"> email link<a style=" color: brown;" href="mailto:kani13@gmail.com">mail send</a></div>
+    <br>
+    <div class="performance"> tel link<a style=" color: brown;" href="tel:+911234567890">telephone:1234567890</a></div>
+    <br>
+    <div class="performance"> download link<a style=" color: brown;" href="C:\Users\ELCOT\Documents\Fax"> download
+            link</a></div>
+    <br>
+    <div class="performance"> image link<a style=" color: brown;"
+            href="C:\Users\ELCOT\Downloads\web development\images\smile.jpg" download="smile">image download</a></div>
+    <br><br>
+    <!-- interenal link -->
+    <div class="link">refresh this page<a style=" color: rgb(165, 42, 110);" href="#"> internal link</a></div><br>
+        <!-- absolute -->
+        <div class="link"> absolute link<a style=" color: rgb(165, 42, 118);"
+                href="https://www.geeksforgeeks.org/software-engineering-projects/">absolute link</a></div>
+        <br>
+        <!-- relative link -->
+        <div class="link"> relative link<a style=" color: rgb(165, 42, 134);"
+                href="C:\Users\ELCOT\Downloads\web development\Kani_web\task2.html">relative link</a></div>
+</body>
+
+</html>
