@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <title>resume upload</title>
+    <style>
+        .style {
+            column-span: 2;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table style="border: 2px solid blue; align-items: center; width: 30%; background-color: aqua;">
+            <th style="text-align:right;">RESUME</th>
+            <br>
+            <tr>
+                <th>enter first name</th>
+                <td>
+                    <input type="text" placeholder="kani" required>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <th>enter last name</th>
+                <td>
+                    <input type="text" placeholder="R" required>
+                </td>
+            </tr><br>
+            <tr>
+                <th>enter date of birth </th>
+                <td>
+                    <input type="date" placeholder="23-09-2004" required>
+                </td>
+            </tr><br>
+            <tr>
+                <th>enter phoneno</th>
+                <td>
+                    <input type="tel" placeholder="1234567890" required>
+                </td>
+            </tr>
+            <tr>
+                <th>enter mail id</th>
+                <td>
+                    <input type="email" placeholder="kani123@gmail.com" required>
+                </td>
+            </tr><br>
+            <tr>
+                <th>enter mail password</th>
+                <td>
+                    <input type="password" placeholder="kani123" required>
+                </td>
+            </tr><br>
+            <tr>
+                <th>enter mail confrom password</th>
+                <td>
+                    <input type="password" placeholder="kani123" required>
+                </td>
+            </tr><br>
+            <th>enter user city</th>
+            <td>
+                <input type="city" placeholder="tamilnadu" required>
+            </td>
+            <tr><br>
+                <th>select gender</select></th>
+                <td>male<input type="radio" name="gender"> </td>
+                <td>female<input type="radio" name="gender"> </td>
+            </tr><br>
+            <tr>
+                <th>enter user address</th>
+                <td>
+                    <textarea rows="3" cols="20" placeholder="enter address details"></textarea>
+                </td>
+            </tr><br>
+            <tr>
+                <th>position for applied</th>
+                <td>
+                    <option value="" selected="selected" disabled="disabled">selected option</option>
+                    <select name="position">
+                        <option value="1">web development</option>
+                        <option value="2">python development</option>
+                        <option value="3">UX/UI development</option>
+                        <option value="4">javascript development</option>
+                    </select>
+                </td>
+            </tr><br>
+            <tr>
+                <th>additional skill</th>
+                <td>
+                    <textarea rows="3" cols="20" placeholder="enter additional skill"></textarea>
+                </td>
+            </tr><br>
+            <tr>
+                <th>upload resume</th>
+                <td>
+                    <input type="file">
+            </tr><br>
+            <tr class="style">
+                <th> submit</th>
+                <td>
+                    <input type="submit" value="save deails">
+                    <input type="reset" value="reset details">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

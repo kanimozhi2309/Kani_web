@@ -1,0 +1,10 @@
+.styles{
+background-color: aqua;
+border: 1px solid black;
+border-radius: 2px;
+padding-left: 6%;
+}
+::placeholder{
+    color: rgb(159, 152, 251);
+
+}
